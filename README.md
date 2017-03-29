@@ -1,8 +1,12 @@
 # Tim21- Thundercats
+
+
 Dino Gafić , GitHub ime: DinoGaf
+
 Nadza Vrazalica, GitHub ime: nadza
 
-![header](https://cloud.githubusercontent.com/assets/20600359/24465421/3d4832ca-14ad-11e7-8407-f05fb9cf3a27.jpg)
+![header](https://cloud.githubusercontent.com/assets/20600359/24465550/b512138e-14ad-11e7-955e-baeef91ed4b6.jpg)
+
 
 
 Tema:
