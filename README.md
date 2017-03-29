@@ -34,7 +34,7 @@ Tako da je cilj sljedeci:
 - Optimizacija resursa i osoblja.
 - Dostava resursa i osoblja neovisno o položaju ISS.
 
-3. Procesi
+2. Procesi
 
 ISS: Narudžba Misije - Ovaj proces je u suštini i kljucni proces sistem. Na osnovu njega se odvijaju svi ostali procesi ukljucujuci i procese
 drugih aktera. Nakon što ISS na osnovu svoje interne liste prioriteta izabere neophodne zalihe, stvara obrazac, koji sadrži ime misije,
@@ -53,7 +53,7 @@ se trebaju naruciti.
 Sljedeci proces upoređuje liste i datume u narudžbenici sa onim koje su poslali Houston i NASA i stvara protip plana izvršavanja, tj. kako bi se resursi mogli dostaviti
 u ISS tako da ISS radi bez zastoja. Nakon što se stvori ovaj prototip, ISS ima opciju da da zeleno svijetlo izvršavanju misije ili da odbije misiju.
 
-4. Funkcionalnosti
+3. Funkcionalnosti
 
 Sistem nudi sljedeće funkcionalnosti:
 - Mogucnost narućivanja i praćenja toka naruđbenice
@@ -67,7 +67,7 @@ Sistem nudi sljedeće funkcionalnosti:
 - Narucivanje resursa
 - Praćenje stanja ISS i slanje upozerenja u slućaju nedostatka resursa
 
-2. Akteri
+4. Akteri
 Imamo tri kljućna aktera:
 
 ISS - Internacionalna svemirska stanica. 
