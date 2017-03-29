@@ -5,7 +5,7 @@ Dino Gafić , GitHub ime: DinoGaf
 
 Nadza Vrazalica, GitHub ime: nadza
 
-![header](https://cloud.githubusercontent.com/assets/20600359/24465550/b512138e-14ad-11e7-955e-baeef91ed4b6.jpg)
+![header2](https://cloud.githubusercontent.com/assets/20600359/24466287/a9efd9b6-14b0-11e7-8b54-abc87a6f8b9b.jpg)
 
 
 
