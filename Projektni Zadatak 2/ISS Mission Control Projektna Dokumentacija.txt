@@ -3,78 +3,78 @@ International Space Station: Mission Control
 
 1. Opis teme
 
-Cilj ovog projekta jeste da se simulira odrûivi nacin rada i odrûavanja ISS. Svrha sistema je da osigura kontinualan i neprekidan
-lanac dostave osoblja i tereta na samu stanicu, usklaen sa potrebama stanice i eksperimenata koji se vröe u stanici ili orbiti 
+Cilj ovog projekta jeste da se simulira odr≈æivi nacin rada i odr≈æavanja ISS. Svrha sistema je da osigura kontinualan i neprekidan
+lanac dostave osoblja i tereta na samu stanicu, usklaƒëen sa potrebama stanice i eksperimenata koji se vr≈°e u stanici ili orbiti 
 oko stanice.
 
-Problemi koji se susreÊu jeste veoma ograniÊen skladiöni prostor u samoj ISS, dodavanje novih modula (ekstenzija) na stanicu
-i najveÊi preoblem: redovno odrûavanje stanice. Da bi se rjeöili ovi problemi, pojavljuju se novi podproblemi : kako sve
-potrepötine dovesti do stanice, i kako osigurati neprekidno snadbjevanje najosnovnijim potrebötinama.
+Problemi koji se susreƒáu jeste veoma ograniƒáen skladi≈°ni prostor u samoj ISS, dodavanje novih modula (ekstenzija) na stanicu
+i najveƒái preoblem: redovno odr≈æavanje stanice. Da bi se rje≈°ili ovi problemi, pojavljuju se novi podproblemi : kako sve
+potrep≈°tine dovesti do stanice, i kako osigurati neprekidno snadbjevanje najosnovnijim potreb≈°tinama.
 
-Ovaj sistem rjeöava ovaj problem tako öto traûi od ISS da poöalje zahtjev zemlji za stavi koje treba. Nakon öto taj zahtjev biva procesuiran na zemlji,
-onda se öalje prijedlog plana na razmatranje stanici. Stanica moûe da da zeleno svjetlo da se dostave potrebni resursi po planu ili odbije plan u potpunosti.
+Ovaj sistem rje≈°ava ovaj problem tako ≈°to tra≈æi od ISS da po≈°alje zahtjev zemlji za stavi koje treba. Nakon ≈°to taj zahtjev biva procesuiran na zemlji,
+onda se ≈°alje prijedlog plana na razmatranje stanici. Stanica mo≈æe da da zeleno svjetlo da se dostave potrebni resursi po planu ili odbije plan u potpunosti.
 
-Razlog za kupovinu ovog sistema: s obzirom na ogromni troöak izgradnje i odrûavanja ISS, kao i dostave resursa
+Razlog za kupovinu ovog sistema: s obzirom na ogromni tro≈°ak izgradnje i odr≈æavanja ISS, kao i dostave resursa
 u svemir, svaka optimizacija u komunikaciji ce ustedjeti na globalnom nivou.
 
 Tako da je cilj sljedeci:
-- Odrûavanje ISS u svemiru.
-- Odrûavanje ûivotne sredine u ISS i redovnih eksperimenata.
+- Odr≈æavanje ISS u svemiru.
+- Odr≈æavanje ≈æivotne sredine u ISS i redovnih eksperimenata.
 - Optimizacija resursa i osoblja.
-- Dostava resursa i osoblja neovisno o poloûaju ISS.
+- Dostava resursa i osoblja neovisno o polo≈æaju ISS.
 
-3. Procesi
+2. Procesi
 
-ISS: Narudûba Misije - Ovaj proces je u suötini i kljucni proces sistem. Na osnovu njega se odvijaju svi ostali procesi ukljucujuci i procese
-drugih aktera. Nakon öto ISS na osnovu svoje interne liste prioriteta izabere neophodne zalihe, stvara obrazac, koji sadrûi ime misije,
-datum (planiranog) pocetka misije, kratki opis misije (npr. Odrûavanje mlaznica, Eksperiment
-formiranja manjih asteroida), zatim lista osoblja (ukoliko nema astrounauta traûene struke vec na stanici ) da se ta misija izvröi.
-Nakon öto se ispuni i podnese narudûba ide u "pending" stanje. Dok je u ovom stanju NASA i Houston pristupaju narudûbenici te vröe svoje analize narudûbe misije.
+ISS: Narud≈æba Misije - Ovaj proces je u su≈°tini i kljucni proces sistem. Na osnovu njega se odvijaju svi ostali procesi ukljucujuci i procese
+drugih aktera. Nakon ≈°to ISS na osnovu svoje interne liste prioriteta izabere neophodne zalihe, stvara obrazac, koji sadr≈æi ime misije,
+datum (planiranog) pocetka misije, kratki opis misije (npr. Odr≈æavanje mlaznica, Eksperiment
+formiranja manjih asteroida), zatim lista osoblja (ukoliko nema astrounauta tra≈æene struke vec na stanici ) da se ta misija izvr≈°i.
+Nakon ≈°to se ispuni i podnese narud≈æba ide u "pending" stanje. Dok je u ovom stanju NASA i Houston pristupaju narud≈æbenici te vr≈°e svoje analize narud≈æbe misije.
 
 Houston: Stvaranje Rasporeda Leta - Ovaj proces, zajedno sa podprocesima: Provjera Dostupnih Modula/Letjelica, Provjera Lokacija Rampa za Lansiranje)
-za cilj ima da stvori dokument koji sadrûi ime i lokaciju slobodne rampe sa koje se moûe lansirati, letjelice koje su dostupne za tu rampu i moduli koji su dostupni
-za te letjelice. Nakon öto formira raspored leta, on se proslijedjuje ISS-u na razmatranje.
+za cilj ima da stvori dokument koji sadr≈æi ime i lokaciju slobodne rampe sa koje se mo≈æe lansirati, letjelice koje su dostupne za tu rampu i moduli koji su dostupni
+za te letjelice. Nakon ≈°to formira raspored leta, on se proslijedjuje ISS-u na razmatranje.
 
 NASA: Stvara Listu Djelova/Osoblja Potrebnog za Misiju - Ovaj proces, zajedno sa podprocesima: Provjera Dospnih Astronauta, Provjera Djelova na Lageru , Provjera da li se 
-Dio moûe Napraviti i Procjena kada Êe taj Dio biti Napravljen, Êe kao cilj stvoriti dvije liste, jedna je lista resursa koji dostupni, a druga je lista resursa koji
+Dio mo≈æe Napraviti i Procjena kada ƒáe taj Dio biti Napravljen, ƒáe kao cilj stvoriti dvije liste, jedna je lista resursa koji dostupni, a druga je lista resursa koji
 se trebaju naruciti. 
 
-Sljedeci proces uporeuje liste i datume u narudûbenici sa onim koje su poslali Houston i NASA i stvara protip plana izvröavanja, tj. kako bi se resursi mogli dostaviti
-u ISS tako da ISS radi bez zastoja. Nakon öto se stvori ovaj prototip, ISS ima opciju da da zeleno svijetlo izvröavanju misije ili da odbije misiju.
+Sljedeci proces uporeƒëuje liste i datume u narud≈æbenici sa onim koje su poslali Houston i NASA i stvara protip plana izvr≈°avanja, tj. kako bi se resursi mogli dostaviti
+u ISS tako da ISS radi bez zastoja. Nakon ≈°to se stvori ovaj prototip, ISS ima opciju da da zeleno svijetlo izvr≈°avanju misije ili da odbije misiju.
 
-4. Funkcionalnosti
+3. Funkcionalnosti
 
-Sistem nudi sljedeÊe funkcionalnosti:
-- Mogucnost naruÊivanja i praÊenja toka narubenice
-- Najoptimalnije rjeöenje za svaku narubenicu
-- Pregled i statistike resursa poslanih na prethodne misije kroz analizu finalnog izvjeötaja
+Sistem nudi sljedeƒáe funkcionalnosti:
+- Mogucnost naruƒáivanja i praƒáenja toka naruƒëbenice
+- Najoptimalnije rje≈°enje za svaku naruƒëbenicu
+- Pregled i statistike resursa poslanih na prethodne misije kroz analizu finalnog izvje≈°taja
 - Pregled/Pracenje dostupnog osoblja
 - Pregled/Pracenje dostupnih resursa 
 - Pregled/Pracenje osoblja u ISS
 - Pregled/Pracenje resursa u ISS
 - Pregled/Pracenje eksperimenata u ISS
 - Narucivanje resursa
-- PraÊenje stanja ISS i slanje upozerenja u sluÊaju nedostatka resursa
+- Praƒáenje stanja ISS i slanje upozerenja u sluƒáaju nedostatka resursa
 
-2. Akteri
-Imamo tri kljuÊna aktera:
+4. Akteri
+Imamo tri kljuƒána aktera:
 
 ISS - Internacionalna svemirska stanica. 
 ISS radi dvije bitne stvari : narucuje misije i provjerava plan misije.
-Narucivanje misije se vröi po internoj listi prioriteta i potreba stanice, a provjeravanje se vröi nakon öto
-druga dva aktora analiziraju narudûbenicu te sastave plan i strategiju kako bi se misija mogla izvröiti. ISS daje zeleno svjetlo
-ukoliko je saglasan sa planom. Naravno, ISS moûe da odbije predloûeni plan.
+Narucivanje misije se vr≈°i po internoj listi prioriteta i potreba stanice, a provjeravanje se vr≈°i nakon ≈°to
+druga dva aktora analiziraju narud≈æbenicu te sastave plan i strategiju kako bi se misija mogla izvr≈°iti. ISS daje zeleno svjetlo
+ukoliko je saglasan sa planom. Naravno, ISS mo≈æe da odbije predlo≈æeni plan.
 
 Houston - zajednicko ime za kontrolu lansiranja. 
-Houston je zaduûen da prati koje su platforme slobodne i koje su rakete/moduli (kako putnicke tako i teretne, zavisno od potreba misije) dostupne za koju platformu. Houston je takoe zaduûen da prati koordinate
-ISS da bi se resursi mogli lansirati i dovesti na stanicu bez pretjeranih odlaganja. Po registrovanju narubenice za misiju, 
-houston öalje raspored leta, koji sadrûi datum kada se teret moûe lansirati na ISS, te sa koje platforme se moûe lansirati za ISS, 
+Houston je zadu≈æen da prati koje su platforme slobodne i koje su rakete/moduli (kako putnicke tako i teretne, zavisno od potreba misije) dostupne za koju platformu. Houston je takoƒëe zadu≈æen da prati koordinate
+ISS da bi se resursi mogli lansirati i dovesti na stanicu bez pretjeranih odlaganja. Po registrovanju naruƒëbenice za misiju, 
+houston ≈°alje raspored leta, koji sadr≈æi datum kada se teret mo≈æe lansirati na ISS, te sa koje platforme se mo≈æe lansirati za ISS, 
 te koliko je letjelica dostupno za tu platformu.
 
-NASA - zajednicko ime za proizvoace resursa koji idu u svemir. 
-Uloga nase jeste da proizvodi i skladiöti sve neophodne resurse za ISS.
-Nakon analize narudûbenice, NASA öalje listu dostupnih resursa.
+NASA - zajednicko ime za proizvoƒëace resursa koji idu u svemir. 
+Uloga nase jeste da proizvodi i skladi≈°ti sve neophodne resurse za ISS.
+Nakon analize narud≈æbenice, NASA ≈°alje listu dostupnih resursa.
 
-* NASA i Houston imaju pristup prethodnim Finalnim Izvjeötajima , na osnovu kojih mogu da interno stvore svoju listu najkoriötenijih resursa
-  da bi te iste mogli skladiötiti i tako pomoÊi ubrzanom izvröavanju misija.
+* NASA i Houston imaju pristup prethodnim Finalnim Izvje≈°tajima , na osnovu kojih mogu da interno stvore svoju listu najkori≈°tenijih resursa
+  da bi te iste mogli skladi≈°titi i tako pomoƒái ubrzanom izvr≈°avanju misija.
 
