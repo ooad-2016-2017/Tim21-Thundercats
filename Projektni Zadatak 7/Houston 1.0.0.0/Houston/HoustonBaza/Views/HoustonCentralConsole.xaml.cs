@@ -151,7 +151,10 @@ namespace Houston.HoustonBaza.Views
             textBox.Text = "Servis/i:";
             textBox1.Text = "Modul/i";
             textBox2.Text = "Letjelica/e";
-            for(int i = 0; i < House.Rampe.Count; i++)
+            comboBox.Items.Clear();
+            comboBox1.Items.Clear();
+            comboBox2.Items.Clear();
+            for (int i = 0; i < House.Rampe.Count; i++)
             {
                 try
                 {

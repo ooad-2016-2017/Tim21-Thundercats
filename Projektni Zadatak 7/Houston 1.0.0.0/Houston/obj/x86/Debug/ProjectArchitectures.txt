@@ -1,1 +1,1 @@
-C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.(-1)\Houston\Houston.csproj;x86
+C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\Houston.csproj;x86

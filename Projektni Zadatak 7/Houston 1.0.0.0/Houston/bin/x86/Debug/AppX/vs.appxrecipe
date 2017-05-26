@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>08fd067c-6396-4d4f-96eb-8054c9e13966</PackageIdentityName>
     <PackageIdentityPublisher>CN=Dino</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-26T10:10:43.536</Modified>
+      <Modified>2017-05-26T10:25:02.839</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\bin\x86\Debug\Houston.exe">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\bin\x86\Debug\Houston.exe">
       <PackagePath>entrypoint\Houston.exe</PackagePath>
-      <Modified>2017-05-26T10:10:43.072</Modified>
+      <Modified>2017-05-26T10:25:02.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dino\.nuget\packages\EntityFramework.Core\7.0.0-beta6\lib\dotnet\EntityFramework.Core.dll">
       <PackagePath>EntityFramework.Core.dll</PackagePath>
@@ -524,7 +524,7 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T21:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-05-22T10:39:31.929</Modified>
     </AppxPackagedFile>
@@ -532,36 +532,36 @@
       <PackagePath>EntityFramework.Commands.xml</PackagePath>
       <Modified>2015-07-21T15:24:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2017-05-22T10:39:31.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T10:39:31.792</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T10:39:31.794</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T10:39:31.796</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T10:39:31.797</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T10:39:31.799</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-05-22T10:39:31.800</Modified>
@@ -570,7 +570,7 @@
       <PackagePath>EntityFramework.Commands.dll</PackagePath>
       <Modified>2015-07-21T17:12:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\bin\x86\Debug\Houston.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\bin\x86\Debug\Houston.xr.xml">
       <PackagePath>Houston.xr.xml</PackagePath>
       <Modified>2017-05-22T10:39:46.025</Modified>
     </AppxPackagedFile>
@@ -578,14 +578,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-05-16T23:15:55.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-26T10:05:26.459</Modified>
+      <Modified>2017-05-26T10:23:05.250</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.%28-1%29\Houston\bin\x86\Debug\Core\Houston.exe">
+    <AppxPackagedFile Include="C:\Users\Dino\Desktop\Tim21-Thundercats\Projektni Zadatak 7\Houston 1.0.0.0\Houston\bin\x86\Debug\Core\Houston.exe">
       <PackagePath>Houston.exe</PackagePath>
-      <Modified>2017-05-26T10:10:43.530</Modified>
+      <Modified>2017-05-26T10:25:02.834</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
