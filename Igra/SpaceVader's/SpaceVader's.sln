@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVader's", "SpaceVader's.csproj", "{4E59D1E4-26DF-18A4-FA1D-0181D7070B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVader's.Editor", "SpaceVader's.Editor.csproj", "{C88C126F-068A-BA1D-7C81-05E4F0A2CCCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E59D1E4-26DF-18A4-FA1D-0181D7070B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E59D1E4-26DF-18A4-FA1D-0181D7070B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E59D1E4-26DF-18A4-FA1D-0181D7070B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E59D1E4-26DF-18A4-FA1D-0181D7070B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88C126F-068A-BA1D-7C81-05E4F0A2CCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88C126F-068A-BA1D-7C81-05E4F0A2CCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88C126F-068A-BA1D-7C81-05E4F0A2CCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88C126F-068A-BA1D-7C81-05E4F0A2CCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
