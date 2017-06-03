@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Game_Master : MonoBehaviour {
 
-    public GameObject Hazard;
+    public GameObject[] Hazards;
     public Vector3 SpawnVal;
     public int HazardCount;
     public float SpawnHold;
@@ -36,7 +37,8 @@ public class Game_Master : MonoBehaviour {
         {
             if(Input.GetKeyDown (KeyCode.R))
             {
-                Application.LoadLevel(Application.loadedLevel);
+                //Application.LoadLevel(Application.loadedLevel);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }
     }
@@ -48,6 +50,7 @@ public class Game_Master : MonoBehaviour {
         {
             for (int i = 0; i < HazardCount; i++)
             {
+                GameObject Hazard = Hazards[Random.Range(0, Hazards.Length)];
                 Vector3 SpawnPos = new Vector3(Random.Range(-SpawnVal.x, SpawnVal.x), SpawnVal.y, SpawnVal.z);
                 Quaternion SpawnRot = Quaternion.identity;
                 Instantiate(Hazard, SpawnPos, SpawnRot);
