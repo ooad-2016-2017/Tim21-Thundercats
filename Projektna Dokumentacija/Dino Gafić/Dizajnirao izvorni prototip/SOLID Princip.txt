@@ -1,0 +1,20 @@
+Provjera da li dijagram klasa zadovoljava SOLID princip: 
+
+S: Single Responsibility Principle - 
+Sve klase sadrze samo najbitnije metode koje im trebaju i svaka klasa ima svoju odredjenu ulogu. Slozenije klase sistema 
+koriste one jednostavnije pri analizi podataka, tako da je ovo pravilo zadovoljeno.
+
+O: Open - Closed Principle - 
+Prekrsen. Izmjene klasa poput Rampa, Raketa ili Modul se mogu odraziti na njihove kontejnerske klase i na klasu Narudzbenica.
+
+L: Lisk Substitution Principle - 
+Nemamo nasljeðenih klasa, tako da nije moguce testirati ovaj princip. Eventualno kada bi dodavali nove izvedene klase u sistem 
+u nastavku projekta to bi bilo zato sto nam trebaju nove klase koje se vrlo malo razlikuju jedna od druge, i to po metodama koje
+koje mogu obaviti. 
+
+I: Interface Segregation Principle -
+Dijagram u pitanju nema interface (faza planiranja je da se sad urade klase, a interface u finalnoj formi), tako da nije moguce 
+testirati ni ovaj princip.
+
+D: Dependancy Inversion - 
+Nemamo ni nasljedjenih ni apstraktnih klasa tako da nije moguce testirati ovaj princip.
